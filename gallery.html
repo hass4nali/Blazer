@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100&family=Roboto:wght@900&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/main.css">
+  <script src="main.js"></script>
+  <script src="slideshow.js"></script>
+  <title>shop</title>
+
+</head>
+
+<body>
+
+  <div class="topnav" id="myTopnav">
+    <div class="rightNavigation">
+      <a href="index.html">home</a>
+      <a href="about.html">about</a>
+      <a href="gallery.html" class="active">shop</a>
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+      </a>
+    </div>
+  </div>
+
+  <h2>Blazer Mid '77 Vintage</h2>
+
+
+  <div class="image-container">
+    <div class="slideshow-container">
+
+      <div class="mySlides fade">
+        <img src="img/slideshow/blazer-black.jpg" style="width:100%" >
+      </div>
+
+      <div class="mySlides fade">
+        <img src="img/slideshow/blazer-brown.jpg" style="width:100%">
+      </div>
+
+      <div class="mySlides fade">
+        <img src="img/slideshow/blazer-red.jpg" style="width:100%">
+      </div>
+
+
+    </div>
+  </div>
+
+
+  <div style="text-align:center">
+    <span class="icon-black" onclick="currentSlide(1)"></span>
+    <span class="icon-brown" onclick="currentSlide(2)"></span>
+    <span class="icon-red" onclick="currentSlide(3)"></span>
+  </div>
+  <div class="gallery-txt">
+    <p>
+      Leather and synthetic upper keeps the classic look of the original while adding comfort and support.
+      Vintage treatment on the midsole provides an old-school look.
+      Autoclave construction fuses the outsole to the midsole for a streamlined look that echoes the ‘70s design.
+      Exposed foam on the tongue provides a throwback look.
+      Non-marking, solid-rubber outsole has had the same herringbone pattern from the start, because why change what works. It’s excellent traction and durability that leaves the imprint you love.
+    </p>
+  </div>
+
+  <script>    
+    showSlides(slideIndex);
+  </script>
+
+</body>
+
+</html>
