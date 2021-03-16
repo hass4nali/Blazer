@@ -1,5 +1,5 @@
 body {
-    background-color: #F5F5F5;
+    /*background-color: #F5F5F5;*/
     background-color:#363636;
     margin: 0;
 
@@ -110,6 +110,7 @@ a {
   
 }*/
 @media screen and (min-width:801px) {
+
 .rightNavigation {
 	float: right;
   padding-right: 25%;
@@ -230,6 +231,7 @@ a {
 
 
 @media screen and (max-width: 800px) {
+
   .topnav a {display: none;}
   .topnav a.icon {
     float: right;
@@ -276,8 +278,9 @@ a {
 
   .hometxt, h1 {
     font-size: 25vw;
-    
+    margin-top: 15%;
 }
+
 .hometxt, p {
 
     font-size: 5vw;
