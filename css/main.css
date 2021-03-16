@@ -69,7 +69,12 @@ h2 {
 
   }
 
+  @media (max-aspect-ratio: 4/3) {
 
+    .container {
+    margin-top: 15%;
+    }
+  }
 
 a {
    outline: none; 
