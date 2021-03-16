@@ -69,12 +69,6 @@ h2 {
 
   }
 
-  @media (max-aspect-ratio: 4/3) {
-
-    .container {
-    margin-top: 15%;
-    }
-  }
 
 a {
    outline: none; 
@@ -234,6 +228,21 @@ a {
 
 }
 
+@media (max-aspect-ratio: 4/3) {
+
+  .container {
+  margin-top: 15%;
+  }
+  .gallery-txt p {
+    width: 80%;
+    font-size: 22px;
+  }
+
+  .about-txt p {
+    width: 70%;
+    font-size: 20px;
+  }
+}
 
 @media screen and (max-width: 800px) {
 
