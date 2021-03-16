@@ -353,6 +353,7 @@ h2 {
 }
 
 /* Fading animation */
+/*
 .fade {
   -webkit-animation-name: fade;
   -webkit-animation-duration: 1.5s;
@@ -370,3 +371,4 @@ h2 {
   to {opacity: 1}
 }
 
+*/
