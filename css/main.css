@@ -239,7 +239,7 @@ box-shadow: 0px 0px 25px 25px rgba(05, 0, 0, 0.15);*/
 @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) {
 
 .container {
-margin-top: 5%;
+margin-top: 8%;
 }
 .gallery-txt p {
   width: 80%;
