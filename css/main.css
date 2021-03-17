@@ -85,6 +85,11 @@ animation: transitionIn 2s;
   animation: transitionSVG 3s;
   }
 
+  .about-txt {
+    animation: transitionTxt 3s;
+  }
+
+
 @keyframes transitionIn {
   from {
     transform: translate(-120%,-100%);
@@ -99,12 +104,22 @@ animation: transitionIn 2s;
   
 }
 
+@keyframes transitionTxt {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  
+  }
+}
 
 @keyframes transitionSVG {
 0% {
   opacity: 0;
 }
 50% {
+ 
   opacity: 0;
 }
 100% {
@@ -234,9 +249,7 @@ box-shadow: 0px 0px 25px 25px rgba(05, 0, 0, 0.15);*/
 
 }
 
-
 @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) {
-
 .container {
 margin-top: 8%;
 }
@@ -249,6 +262,9 @@ margin-top: 8%;
   width: 70%;
   font-size: 20px;
 }
+
+
+
 }
 
 @media screen and (max-width: 800px) {
