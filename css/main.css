@@ -92,14 +92,13 @@ animation: transitionIn 2s;
 
 @keyframes transitionIn {
   from {
-    transform: translate(-120%,-100%);
+    transform: translate(-420%,-100%);
     opacity: 0;
 
   }
   
   to {
     opacity: 1;
-    transform: translateX(-120%);
   }
   
 }
