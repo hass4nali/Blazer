@@ -92,7 +92,7 @@ animation: transitionIn 2s;
 
 @keyframes transitionIn {
   from {
-    transform: translate(-120%,-120%);
+    transform: translate(-120%,-100%);
     opacity: 0;
 
   }
