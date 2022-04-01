@@ -271,7 +271,7 @@ margin-top: 8%;
   @keyframes transitionIn {
     from {
       opacity: 0;
-      transform: translateY(-100%);
+      transform: translateY(-120%);
     }
     
     to {
